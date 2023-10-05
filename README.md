@@ -39,7 +39,8 @@ It shouldn't make it harder to find caves since some seemingly ignore the inital
 
 It is also possible to remove normal flooded caves by decreasing the `fluid_level_floodedness` noise.
 
-
 ## License
 
- <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/FliegendeWurst/amplified_fixed">amplified_fixed</a> by <span property="cc:attributionName">FliegendeWurst</span> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a></p> 
+ <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/FliegendeWurst/amplified_fixed">amplified_fixed</a> by <span property="cc:attributionName">FliegendeWurst</span> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a></p>.
+
+ `data/minecraft/worldgen/noise_settings/amplified.json` was derived from Minecraft 1.20.2, the license only applies to the change.
