@@ -17,7 +17,7 @@ Download the [.zip](https://github.com/FliegendeWurst/amplified_fixed/releases/d
 
 ## Technical details
 
-```json
+```jsonp
 "initial_density_without_jaggedness": {
     "type": "minecraft:add",
     "argument1": {
@@ -42,7 +42,7 @@ Download the [.zip](https://github.com/FliegendeWurst/amplified_fixed/releases/d
         }
     },
     "argument2": {
-        /* vanilla noise expression */
+        vanilla noise expression
     }
 }
 ```
@@ -53,6 +53,6 @@ It is also possible to remove normal flooded caves by decreasing the `fluid_leve
 
 ## License
 
- <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/FliegendeWurst/amplified_fixed">amplified_fixed</a> by <span property="cc:attributionName">FliegendeWurst</span> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a></p>.
+ <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/FliegendeWurst/amplified_fixed">amplified_fixed</a> by <span property="cc:attributionName">FliegendeWurst</span> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a></p>
 
  `data/minecraft/worldgen/noise_settings/amplified.json` was derived from Minecraft 1.20.2, the license only applies to the changes outlined above.
