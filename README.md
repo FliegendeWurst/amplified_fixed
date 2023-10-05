@@ -5,6 +5,19 @@ It achieves this by increasing the terrain density (= more stone/dirt) around y=
 which cuts off most surface water from the cave systems.
 It shouldn't make it harder to find caves since some seemingly ignore the inital density generation.
 
+## Installation
+
+Download the [.zip](https://github.com/FliegendeWurst/amplified_fixed/releases/download/v1/amplified_fixed.zip) and copy into your datapacks directory.
+
+## Screenshots
+
+
+| Vanilla affected by [MC-241283](https://bugs.mojang.com/browse/MC-241283) | With this datapack |
+| ------------- | ------------- |
+| ![vanilla](./vanilla.jpg)  | ![fixed](./fixed.jpg)  |
+
+## Technical details
+
 ```json
 "initial_density_without_jaggedness": {
     "type": "minecraft:add",
