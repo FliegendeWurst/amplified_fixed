@@ -1,20 +1,19 @@
 # Amplified world generation without excessive flooded caves
 
-This datapack changes the noise parameters to remove flooded caves in amplified world generation.
+This datapack changes Minecraft's noise parameters to remove flooded caves in amplified world generation.
 It achieves this by increasing the terrain density (= more stone/dirt) around y=46,
 which cuts off most surface water from the cave systems.
 It shouldn't make it harder to find caves since some seemingly ignore the inital density generation.
 
 ## Installation
 
-Download the [.zip](https://github.com/FliegendeWurst/amplified_fixed/releases/download/v1/amplified_fixed.zip) and copy into your datapacks directory.
+Download the [.zip](https://github.com/FliegendeWurst/amplified_fixed/releases/download/v1/amplified_fixed.zip) and save it in your datapacks directory.
 
 ## Screenshots
 
-
 | Vanilla affected by [MC-241283](https://bugs.mojang.com/browse/MC-241283) | With this datapack |
-| ------------- | ------------- |
-| ![vanilla](./vanilla.jpg)  | ![fixed](./fixed.jpg)  |
+| ------------------------- | --------------------- |
+| ![vanilla](./vanilla.jpg) | ![fixed](./fixed.jpg) |
 
 ## Technical details
 
@@ -43,7 +42,7 @@ Download the [.zip](https://github.com/FliegendeWurst/amplified_fixed/releases/d
         }
     },
     "argument2": {
-        ... vanilla noise expression ...
+        /* vanilla noise expression */
     }
 }
 ```
@@ -56,4 +55,4 @@ It is also possible to remove normal flooded caves by decreasing the `fluid_leve
 
  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/FliegendeWurst/amplified_fixed">amplified_fixed</a> by <span property="cc:attributionName">FliegendeWurst</span> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a></p>.
 
- `data/minecraft/worldgen/noise_settings/amplified.json` was derived from Minecraft 1.20.2, the license only applies to the change.
+ `data/minecraft/worldgen/noise_settings/amplified.json` was derived from Minecraft 1.20.2, the license only applies to the changes outlined above.
