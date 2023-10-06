@@ -15,6 +15,13 @@ Download the [.zip](https://github.com/FliegendeWurst/amplified_fixed/releases/d
 | ------------------------- | --------------------- |
 | ![vanilla](./vanilla.jpg) | ![fixed](./fixed.jpg) |
 
+Or a three-way comparison:
+| Normal | Amplified | Amplified (fixed) |
+| ------ | --------- | ----------------- |
+| ![normal](./random_vanilla.jpg) | ![amplified](./random_amplified.jpg) | ![fixed](./random_fixed.jpg) |
+
+As you can see, some flooding near the surface remains. I believe that can be corrected by tweaking the y level of my fix, but that will also lead to more terrain changes.
+
 ## Technical details
 
 ```jsonp
